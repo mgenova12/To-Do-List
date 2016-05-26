@@ -1,0 +1,99 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+body {
+    background: linear-gradient(#523535, #29a59c); 
+    background-repeat:no-repeat;
+    max-height:100%;
+    background-attachment: fixed;
+}
+
+.header {
+    position: fixed;
+    width: 100%;
+}
+
+h1 {
+    padding: 20px 0;
+    text-align: center;
+    background-color: white;
+}   
+
+.main {
+    padding: 120px 10px 0;
+}
+
+.container {
+    max-width: 380px;
+}
+
+.list p {
+    background:white;
+    font-family:cursive;
+    color: #473e39; 
+    font-size: 20px;
+    margin: 0 auto 5px;
+    padding: 20px;
+    max-width: 520px;
+}
+
+.list p .star {
+    cursor: pointer;
+    margin: 0 10px 0 10px;
+}
+
+.list p .star:hover, .list p .active    {
+    color: #ffcc00;
+}
+
+.list p .remove {
+    font-family:cursive;
+    cursor: pointer;
+    float: right;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.list p .remove:hover {
+    color: #ed1c24;
+}
+
+form.form {
+    color: #473e39; 
+    height: 60px;
+    margin: 0 auto 5px;
+    padding: 0;
+    width: 380px;
+}
+
+.form input {
+    float: left;
+    font-family:cursive;
+    font-size: 20px;
+    height: 60px;
+    margin: 0 5px 0 0;
+    padding: 0 20px;
+    width: 275px;
+}
+
+.form button.btn {
+    background-color:#172dd4;
+    color: #fff;
+    float: right;
+    font-size: 20px;
+    height: 60px;
+    width: 60px;
+}
+
+.form button:hover {
+    background-color:#3892ad;
+    cursor: pointer;
+}
+
+input[type="checkbox"]{
+  width: 20px; 
+  height: 20px; 
+}
